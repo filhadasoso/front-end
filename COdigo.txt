@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto final de Front End</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="header">
+        <img class="aladin" src="imagens/Aladdin.png" alt="Logo">
+          <div class="HomeSobre">
+            <p> Home |  Sobre </p>
+          </div>        
+    </div>
+    <div class="banner">
+        <img class="banner1" src="imagens/Aladdin.png" alt="img1">
+        <img class="banner2" src="imagens/Aladdin.png" alt="img2">
+        <img class="banner3" src="imagens/Aladdin.png" alt="img3">
+    </div>
+</body>
+</html>
+
+.header{
+    background-color: #2c1a3e;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HomeSobre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    margin-right: 20px;
+}
+.aladin{
+    height: 100%;
+}
