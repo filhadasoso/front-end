@@ -1,0 +1,69 @@
+.header{
+    background-color: #212169;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.HomeSobre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:aliceblue;
+    margin-right: 20px;
+    font-size: 24px;
+}
+.aladin{
+    height: 100%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap; /* Quebra para uma única coluna em telas menores */
+}
+
+/* Estilos para cada seção do footer */
+.footer-section {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.footer-section h2 {
+    font-size: 24px;
+}
+
+.footer-section p {
+    font-size: 16px;
+}
+
+/* Estilos para o formulário de cadastro */
+.footer-section form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-section input[type="text"],
+.footer-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-section button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.footer-section button:hover {
+    background-color: #2980b9;
+}
